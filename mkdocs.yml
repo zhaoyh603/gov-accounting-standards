@@ -1,0 +1,58 @@
+site_name: 政府和非营利组织会计
+theme:
+  name: mkdocs # readthedocs material mkdocs
+  nav_style: dark
+  locale: zh_CN
+  features:
+      - navigation.tabs
+      - navigation.tabs.sticky
+  highlightjs: true
+  hljs_languages:
+      - yaml
+      - rust
+      - python
+      - java
+  shortcuts:
+    help: 191    # ?
+    next: 78     # n
+    previous: 80 # p
+    search: 83   # s
+
+markdown_extensions:
+  - admonition #MkDocs 警告框
+  - footnotes #脚注
+  - meta #自定义文章元数据
+  - attr_list
+  - def_list
+  - fenced_code
+  - tables
+  - admonition
+  - codehilite
+  - nl2br
+  - sane_lists
+  - smarty
+  - wikilinks
+  - pymdownx.caret #下划线
+  - pymdownx.mark #文本高亮
+  - pymdownx.tilde #删除线
+  - pymdownx.highlight
+  - pymdownx.magiclink
+  - pymdownx.superfences
+  - toc:
+      permalink: "#"
+      #baselevel: 2
+      separator: "_"
+plugins:
+  - search:
+      lang:
+          - ja
+          - en
+      separator: '[\s\-\.]'
+
+  - literate-nav:
+      nav_file: SUMMARY.md
+
+site_author: 'zhaoyh603@163.com'
+copyright: 
+  Copyright &copy; 2019 - 2022 赵永辉
+  
