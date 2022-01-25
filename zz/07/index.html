@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="zh_Hans_CN">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="zhaoyh603@163.com">
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>政府会计准则第7号——会计调整 - 政府和非营利组织会计</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/yaml.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/rust.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/python.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/java.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="../..">政府和非营利组织会计</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">法规 <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../flfg/0kjf/" class="dropdown-item">中华人民共和国会计法</a>
+</li>
+                                    
+<li>
+    <a href="../../flfg/1ysf/" class="dropdown-item">中华人民共和国预算法</a>
+</li>
+                                    
+<li>
+    <a href="../../flfg/2ysfsstl/" class="dropdown-item">中华人民共和国预算法实施条例</a>
+</li>
+                                    
+<li>
+    <a href="../../flfg/3kjda/" class="dropdown-item">会计档案管理办法</a>
+</li>
+                                    
+<li>
+    <a href="../../flfg/Kuaij-jichu-gongzuo-guifan-2019/" class="dropdown-item">会计基础工作规范</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">准则 <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../" class="dropdown-item">索引</a>
+</li>
+                                    
+<li>
+    <a href="../00/" class="dropdown-item">政府会计准则——基本准则</a>
+</li>
+                                    
+<li>
+    <a href="../01/" class="dropdown-item">政府会计准则第1号——存货</a>
+</li>
+                                    
+<li>
+    <a href="../02/" class="dropdown-item">政府会计准则第 2 号——投资</a>
+</li>
+                                    
+<li>
+    <a href="../03/" class="dropdown-item">政府会计准则第 3 号——固定资产</a>
+</li>
+                                    
+<li>
+    <a href="../031/" class="dropdown-item">《政府会计准则第3号——固定资产》应用指南</a>
+</li>
+                                    
+<li>
+    <a href="../04/" class="dropdown-item">政府会计准则第 4 号——无形资产</a>
+</li>
+                                    
+<li>
+    <a href="../05/" class="dropdown-item">政府会计准则第5号——公共基础设施</a>
+</li>
+                                    
+<li>
+    <a href="../06/" class="dropdown-item">政府会计准则第6号——政府储备物资</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">政府会计准则第7号——会计调整</a>
+</li>
+                                    
+<li>
+    <a href="../08/" class="dropdown-item">政府会计准则第8号——负债</a>
+</li>
+                                    
+<li>
+    <a href="../09/" class="dropdown-item">政府会计准则第9号——财务报表编制和列报</a>
+</li>
+                                    
+<li>
+    <a href="../10/" class="dropdown-item">政府会计准则第10号——政府和社会资本合作项目合同</a>
+</li>
+                                    
+<li>
+    <a href="../101/" class="dropdown-item">《政府会计准则第 10 号——政府和社会资本合作项目合同》应用指南</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">制度 <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">政府会计制度</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../zd/zfkj/" class="dropdown-item">索引</a>
+</li>
+            
+<li>
+    <a href="../../zd/zfkj/zd-0/" class="dropdown-item">政府会计制度——行政事业单位会计科目和报表</a>
+</li>
+            
+<li>
+    <a href="../../zd/zfkj/zd-1/" class="dropdown-item"><政府会计制度——行政事业单位会计科目和报表>与<行政单位会计制度>有关衔接问题的处理规定</a>
+</li>
+            
+<li>
+    <a href="../../zd/zfkj/zd-10-1/" class="dropdown-item">关于基层医疗卫生机构执行《政府会计制度——行政事业单位会计科目和报表》的衔接规定</a>
+</li>
+            
+<li>
+    <a href="../../zd/zfkj/zd-10/" class="dropdown-item">关于基层医疗卫生机构执行《政府会计制度——行政事业单位会计科目和报表》的补充规定</a>
+</li>
+            
+<li>
+    <a href="../../zd/zfkj/zd-11-1/" class="dropdown-item">关于彩票机构执行《政府会计制度——行政事业单位会计科目和报表》的衔接规定</a>
+</li>
+            
+<li>
+    <a href="../../zd/zfkj/zd-11/" class="dropdown-item">关于彩票机构执行《政府会计制度——行政事业单位会计科目和报表》的补充规定</a>
+</li>
+            
+<li>
+    <a href="../../zd/zfkj/zd-12/" class="dropdown-item">会计司有关负责人就印发行政事业单位执行《政府会计制度——行政事业单位会计科目和报表》的衔接规定答记者问</a>
+</li>
+            
+<li>
+    <a href="../../zd/zfkj/zd-13/" class="dropdown-item">财政部会计司有关负责人就印发《政府会计制度——行政事业单位会计科目和报表》答记者问</a>
+</li>
+            
+<li>
+    <a href="../../zd/zfkj/zd-2/" class="dropdown-item"><政府会计制度——行政事业单位会计科目和报表>与<事业单位会计制度>有关衔接问题的处理规定</a>
+</li>
+            
+<li>
+    <a href="../../zd/zfkj/zd-3-1/" class="dropdown-item">关于国有林场和苗圃执行《政府会计制度——行政事业单位会计科目和报表》的衔接规定</a>
+</li>
+            
+<li>
+    <a href="../../zd/zfkj/zd-3/" class="dropdown-item">关于国有林场和苗圃执行《政府会计制度——行政事业单位会计科目和报表》的补充规定</a>
+</li>
+            
+<li>
+    <a href="../../zd/zfkj/zd-4/" class="dropdown-item">关于测绘事业单位执行《政府会计制度——行政事业单位会计科目和报表》的衔接规定</a>
+</li>
+            
+<li>
+    <a href="../../zd/zfkj/zd-5/" class="dropdown-item">关于地质勘查事业单位执行《政府会计制度——行政事业单位会计科目和报表》的衔接规定</a>
+</li>
+            
+<li>
+    <a href="../../zd/zfkj/zd-6-1/" class="dropdown-item">关于高等学校执行《政府会计制度——行政事业单位会计科目和报表》的衔接规定</a>
+</li>
+            
+<li>
+    <a href="../../zd/zfkj/zd-6/" class="dropdown-item">关于高等学校执行《政府会计制度——行政事业单位会计科目和报表》的补充规定</a>
+</li>
+            
+<li>
+    <a href="../../zd/zfkj/zd-7-1/" class="dropdown-item">关于中小学校执行《政府会计制度——行政事业单位会计科目和报表》的衔接规定</a>
+</li>
+            
+<li>
+    <a href="../../zd/zfkj/zd-7/" class="dropdown-item">关于中小学校执行《政府会计制度——行政事业单位会计科目和报表》的补充规定</a>
+</li>
+            
+<li>
+    <a href="../../zd/zfkj/zd-8-1/" class="dropdown-item">关于科学事业单位执行《政府会计制度——行政事业单位会计科目和报表》的衔接规定</a>
+</li>
+            
+<li>
+    <a href="../../zd/zfkj/zd-8/" class="dropdown-item">关于科学事业单位执行《政府会计制度——行政事业单位会计科目和报表》的补充规定</a>
+</li>
+            
+<li>
+    <a href="../../zd/zfkj/zd-9-1/" class="dropdown-item">关于医院执行《政府会计制度——行政事业单位会计 科目和报表》的衔接规定</a>
+</li>
+            
+<li>
+    <a href="../../zd/zfkj/zd-9/" class="dropdown-item">关于医院执行《政府会计制度——行政事业单位会计科目和报表》的补充规定</a>
+</li>
+            
+<li>
+    <a href="../../zd/zfkj/zd-z10/" class="dropdown-item">关于进一步加强公路水路公共基础设施政府会计核算的通知</a>
+</li>
+            
+<li>
+    <a href="../../zd/zfkj/zd-z11/" class="dropdown-item">关于进一步加强水利基础设施政府会计核算的通知</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">民间非营利组织会计制度</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../zd/mfkj/0/" class="dropdown-item">财政部关于印发《民间非营利组织会计制度》的通知</a>
+</li>
+            
+<li>
+    <a href="../../zd/mfkj/jieshi1hao/" class="dropdown-item">民间非营利组织会计制度>若干问题的解释</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">工会会计制度</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../zd/ghkj/00/" class="dropdown-item">工会会计制度（2021）</a>
+</li>
+            
+<li>
+    <a href="../../zd/ghkj/01/" class="dropdown-item">工会新旧会计制度有关衔接问题的处理规定（2021）</a>
+</li>
+            
+<li>
+    <a href="../../zd/ghkj/90/" class="dropdown-item">工会会计制度(2009)(废止)</a>
+</li>
+            
+<li>
+    <a href="../../zd/ghkj/91/" class="dropdown-item">工会新旧会计制度衔接规定（2009）（废止）</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">社会保险基金会计制度</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../zd/sbjjkj/0shebaojijin/" class="dropdown-item">社会保险基金会计制度</a>
+</li>
+            
+<li>
+    <a href="../../zd/sbjjkj/zd-z12/" class="dropdown-item">机关事业单位职业年金基金相关业务会计处理规定</a>
+</li>
+    </ul>
+  </li>
+                                    
+<li>
+    <a href="../../zd/08nchzzz/" class="dropdown-item">农民专业合作社会计制度</a>
+</li>
+                                    
+<li>
+    <a href="../../zd/08nchzzzxj/" class="dropdown-item">农民专业合作社新旧会计制度有关衔接问题的处理规定</a>
+</li>
+                                    
+<li>
+    <a href="../../zd/cjtkj/" class="dropdown-item">村集体经济组织会计制度（2004）</a>
+</li>
+                                    
+<li>
+    <a href="../../zd/czzyskj/" class="dropdown-item">财政总预算会计制度</a>
+</li>
+                                    
+<li>
+    <a href="../../zd/tdcbzj/" class="dropdown-item">土地储备资金会计核算办法（试行）</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">解释 <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../js/" class="dropdown-item">索引</a>
+</li>
+                                    
+<li>
+    <a href="../../js/0/" class="dropdown-item">关于贯彻实施政府会计准则制度的通知</a>
+</li>
+                                    
+<li>
+    <a href="../../js/00/" class="dropdown-item">关于进一步做好政府会计准则制度新旧衔接和加强行政事业单位资产核算核算的通知</a>
+</li>
+                                    
+<li>
+    <a href="../../js/1/" class="dropdown-item">政府会计准则制度解释第1号</a>
+</li>
+                                    
+<li>
+    <a href="../../js/2/" class="dropdown-item">政府会计准则制度解释第2号</a>
+</li>
+                                    
+<li>
+    <a href="../../js/3/" class="dropdown-item">政府会计准则制度解释第3号</a>
+</li>
+                                    
+<li>
+    <a href="../../js/4/" class="dropdown-item">政府会计准则制度解释第4号</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">成本 <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../cbgl/cb-index/" class="dropdown-item">索引</a>
+</li>
+                                    
+<li>
+    <a href="../../cbgl/ji-ben-zhi-yin/" class="dropdown-item">事业单位成本核算基本指引</a>
+</li>
+                                    
+<li>
+    <a href="../../cbgl/jtzy-glyy/" class="dropdown-item">事业单位成本核算具体指引——公立医院</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">财管 <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../cwgl/cwzd-index/" class="dropdown-item">财务制度</a>
+</li>
+                                    
+<li>
+    <a href="../../cwgl/cwzd-kexueshiye/" class="dropdown-item">科学事业单位财务制度</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">内控 <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../nk/0/" class="dropdown-item">行政事业单位内部控制报告 管理制度（试行）</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">报告 <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../bg/*" class="dropdown-item">None</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">其他 <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../qt/0/" class="dropdown-item">会计改革与发展“十四五”规划纲要</a>
+</li>
+                                    
+<li>
+    <a href="../../qt/1/" class="dropdown-item">会计信息化发展规划（2021-2025年）</a>
+</li>
+                                    
+<li>
+    <a href="../../qt/2/" class="dropdown-item">会计行业人才发展规划（2021-2025年）</a>
+</li>
+                                    
+<li>
+    <a href="../../qt/3/" class="dropdown-item">《会计改革与发展“十四五”规划纲要》系列解读之一</a>
+</li>
+                                    
+<li>
+    <a href="../../qt/4/" class="dropdown-item">《会计改革与发展“十四五”规划纲要》系列解读之二</a>
+</li>
+                                    
+<li>
+    <a href="../../qt/5/" class="dropdown-item">《会计改革与发展“十四五”规划纲要》系列解读之三</a>
+</li>
+                                    
+<li>
+    <a href="../../qt/dianzi-kuaiji-pingzheng/" class="dropdown-item">关于规范电子会计凭证报销入账归档的通知</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">关于</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> 搜索
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../06/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> 上一张
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../08/" class="nav-link">
+                                    下一张 <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="目录">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#7" class="nav-link">政府会计准则第7号——会计调整</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#_1" class="nav-link">第一章 总则</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#_2" class="nav-link">第二章  会计政策及其变更</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#_3" class="nav-link">第三章 会计估计变更</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#_4" class="nav-link">第四章 会计差错更正</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#_5" class="nav-link">第五章 报告日后事项</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#_6" class="nav-link">第六章 披露</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#_7" class="nav-link">第七章 附则</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#7_1" class="nav-link">财政部会计司有关负责人就印发《政府会计准则第7号 ——会计调整》答记者问</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="7">政府会计准则第7号——会计调整<a class="headerlink" href="#7" title="Permanent link">#</a></h1>
+<blockquote>
+<p><strong>《关于印发政府会计准则第7号——会计调整的通知》</strong></p>
+<p><strong>财会〔2018〕28号</strong></p>
+<p>​        党中央有关部门，国务院各部委、各直属机构，全国人大常委会办公厅，全国政协办公厅，高法院，高检院，各民主党派中央，有关人民团体，各省、自治区、直辖市、计划单列市财政厅（局），新疆生产建设兵团财政局：</p>
+<p>为了适应权责发生制政府综合财务报告制度改革需要，规范政府会计调整的确认、计量和相关信息的披露，提高会计信息质量，根据《政府会计准则——基本准则》，我部制定了《政府会计准则第7号——会计调整》，现予印发，自2019年１月１日起施行。</p>
+<p>执行中有何问题，请及时反馈我部。</p>
+<p>附件：政府会计准则第7号——会计调整</p>
+<p>财 政 部</p>
+<p>2018年10月21日</p>
+</blockquote>
+<div class="toc">
+<ul>
+<li><a href="#7">政府会计准则第7号——会计调整</a><ul>
+<li><a href="#_1">第一章 总则</a></li>
+<li><a href="#_2">第二章  会计政策及其变更</a></li>
+<li><a href="#_3">第三章 会计估计变更</a></li>
+<li><a href="#_4">第四章 会计差错更正</a></li>
+<li><a href="#_5">第五章 报告日后事项</a></li>
+<li><a href="#_6">第六章 披露</a></li>
+<li><a href="#_7">第七章 附则</a></li>
+<li><a href="#7_1">财政部会计司有关负责人就印发《政府会计准则第7号 ——会计调整》答记者问</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<h2 id="_1">第一章 总则<a class="headerlink" href="#_1" title="Permanent link">#</a></h2>
+<p><strong> 第一条 </strong> 为了规范政府会计调整的确认、计量和相关信息的披露，根据《政府会计准则——基本准则》，制定本准则。</p>
+<p><strong> 第二条 </strong> 本准则所称会计调整，是指政府会计主体因按照法律、行政法规和政府会计准则制度的要求，或者在特定情况下对其原采用的会计政策、会计估计，以及发现的会计差错、发生的报告日后事项等所作的调整。</p>
+<p>本准则所称会计政策，是指政府会计主体在会计核算时所遵循的特定原则、基础以及所采用的具体会计处理方法。特定原则，是指政府会计主体按照政府会计准则制度所制定的、适合于本政府会计主体的会计处理原则。具体会计处理方法，是指政府会计主体从政府会计准则制度规定的诸多可选择的会计处理方法中所选择的、适合于本政府会计主体的会计处理方法。</p>
+<p>本准则所称会计估计，是指政府会计主体对结果不确定的经济业务或者事项以最近可利用的信息为基础所作的判断，如固定资产、无形资产的预计使用年限等。</p>
+<p>本准则所称会计差错，是指政府会计主体在会计核算时，在确认、计量、记录、报告等方面出现的错误，通常包括计算或记录错误、应用会计政策错误、疏忽或曲解事实产生的错误、财务舞弊等。</p>
+<p>本准则所称报告日后事项，是指自报告日（年度报告日通常为12月31日）至报告批准报出日之间发生的需要调整或说明的事项，包括调整事项和非调整事项两类。</p>
+<p><strong> 第三条 </strong> 政府会计主体应当根据本准则及相关政府会计准则制度的规定，结合自身实际情况，确定本政府会计主体具体的会计政策和会计估计，并履行本政府会计主体内部报批程序；法律、行政法规等规定应当报送有关方面批准或备案的，从其规定。</p>
+<p>政府会计主体的会计政策和会计估计一经确定，不得随意变更。如需变更，应重新履行本条第一款的程序，并按本准则的规定处理。</p>
+<h2 id="_2">第二章  会计政策及其变更<a class="headerlink" href="#_2" title="Permanent link">#</a></h2>
+<p><strong> 第四条 </strong> 政府会计主体应当对相同或者相似的经济业务或者事项采用相同的会计政策进行会计处理。但是，其他政府会计准则制度另有规定的除外。</p>
+<p><strong> 第五条 </strong> 政府会计主体采用的会计政策，在每一会计期间和前后各期应当保持一致。但是，满足下列条件之一的，可以变更会计政策：</p>
+<p>（一）法律、行政法规或者政府会计准则制度等要求变更。</p>
+<p>（二）会计政策变更能够提供有关政府会计主体财务状况、运行情况等更可靠、更相关的会计信息。</p>
+<p><strong> 第六条 </strong> 下列各项不属于会计政策变更：</p>
+<p>（一）本期发生的经济业务或者事项与以前相比具有本质差别而采用新的会计政策。 </p>
+<p>（二）对初次发生的或者不重要的经济业务或者事项采用新的会计政策。</p>
+<p><strong> 第七条 </strong> 政府会计主体应当按照政府会计准则制度规定对会计政策变更进行处理。政府会计准则制度对会计政策变更未作出规定的，通常情况下，政府会计主体应当采用追溯调整法进行处理。</p>
+<p>追溯调整法，是指对某项经济业务或者事项变更会计政策时，视同该项经济业务或者事项初次发生时即采用变更后的会计政策，并以此对财务报表相关项目进行调整的方法。</p>
+<p><strong> 第八条 </strong> 采用追溯调整法时，政府会计主体应当将会计政策变更的累积影响调整最早前期有关净资产项目的期初余额，其他相关项目的期初数也应一并调整；涉及收入、费用等项目的，应当将会计政策变更的影响调整受影响期间的各个相关项目。</p>
+<p>会计政策变更的累积影响，是指按照变更后的会计政策对以前各期追溯计算的最早前期各个受影响的净资产项目以及其他相关项目的期初应有金额与现有金额之间的差额；会计政策变更的影响，是指按照变更后的会计政策对以前各期追溯计算的各个受影响的项目变更后的金额与现有金额之间的差额。</p>
+<p><strong> 第九条 </strong> 政府会计主体按规定编制比较财务报表的，对于比较财务报表可比期间的会计政策变更影响，应当调整各该期间的收入或者费用以及其他相关项目，视同该政策在比较财务报表期间一直采用。对于比较财务报表可比期间以前的会计政策变更的累积影响，政府会计主体应当调整比较财务报表最早期间所涉及的期初净资产各项目，财务报表其他相关项目的期初数也应一并调整。</p>
+<p><strong> 第十条 </strong> 会计政策变更的影响或者累积影响不能合理确定的，政府会计主体应当采用未来适用法对会计政策变更进行处理。</p>
+<p>未来适用法，是指将变更后的会计政策应用于变更当期及以后各期发生的经济业务或者事项，或者在会计估计变更当期和未来期间确认会计估计变更的影响的方法。</p>
+<p>采用未来适用法时，政府会计主体不需要计算会计政策变更产生的影响或者累积影响，也无需调整财务报表相关项目的期初数和比较财务报表相关项目的金额。</p>
+<h2 id="_3">第三章 会计估计变更<a class="headerlink" href="#_3" title="Permanent link">#</a></h2>
+<p><strong> 第十一条 </strong> 政府会计主体据以进行估计的基础发生了变化，或者由于取得新信息、积累更多经验以及后来的发展变化，可能需要对会计估计进行修订。会计估计变更应以掌握的新情况、新进展等真实、可靠的信息为依据。</p>
+<p><strong> 第十二条 </strong> 政府会计主体应当对会计估计变更采用未来适用法处理。</p>
+<p>会计估计变更时，政府会计主体不需要追溯计算前期产生的影响或者累积影响，但应当对变更当期和未来期间发生的经济业务或者事项采用新的会计估计进行处理。</p>
+<p>会计估计变更仅影响变更当期的，其影响应当在变更当期予以确认；会计估计变更既影响变更当期又影响未来期间的，其影响应当在变更当期和未来期间分别予以确认。</p>
+<p><strong> 第十三条 </strong> 政府会计主体对某项变更难以区分为会计政策变更或者会计估计变更的，应当按照会计估计变更的处理方法进行处理。</p>
+<h2 id="_4">第四章 会计差错更正<a class="headerlink" href="#_4" title="Permanent link">#</a></h2>
+<p><strong> 第十四条 </strong> 政府会计主体在本报告期（以下简称本期）发现的会计差错，应当按照以下原则处理：</p>
+<p>（一）本期发现的与本期相关的会计差错，应当调整本期报表（包括财务报表和预算会计报表，下同）相关项目。</p>
+<p>（二）本期发现的与前期相关的重大会计差错，如影响收入、费用或者预算收支的，应当将其对收入、费用或者预算收支的影响或者累积影响调整发现当期期初的相关净资产项目或者预算结转结余，并调整其他相关项目的期初数；如不影响收入、费用或者预算收支的，应当调整发现当期相关项目的期初数。经上述调整后，视同该差错在差错发生的期间已经得到更正。</p>
+<p>与前期相关的重大会计差错的影响或者累积影响不能合理确定的，政府会计主体可比照本条（三）的规定进行处理。</p>
+<p>重大会计差错，是指政府会计主体发现的使本期编制的报表不再具有可靠性的会计差错，一般是指差错的性质比较严重或者差错的金额比较大。该差错会影响报表使用者对政府会计主体过去、现在或者未来的情况作出评价或者预测，则认为性质比较严重，如未遵循政府会计准则制度、财务舞弊等原因产生的差错。通常情况下，导致差错的经济业务或者事项对报表某一具体项目的影响或者累积影响金额占该类经济业务或者事项对报表同一项目的影响金额的10％及以上，则认为金额比较大。</p>
+<p>政府会计主体滥用会计政策、会计估计及其变更，应当作为重大会计差错予以更正。</p>
+<p>（三）本期发现的与前期相关的非重大会计差错，应当将其影响数调整相关项目的本期数。</p>
+<p><strong> 第十五条 </strong> 政府会计主体在报告日至报告批准报出日之间发现的报告期以前期间的重大会计差错，应当视同本期发现的与前期相关的重大会计差错，比照本准则第十四条（二）的规定进行处理。</p>
+<p>政府会计主体在报告日至报告批准报出日之间发现的报告期间的会计差错及报告期以前期间的非重大会计差错，应当按照本准则第五章报告日后事项中的调整事项进行处理。</p>
+<p><strong> 第十六条 </strong> 政府会计主体按规定编制比较财务报表的，对于比较财务报表期间的重大会计差错，应当调整各该期间的收入或者费用以及其他相关项目；对于比较财务报表期间以前的重大会计差错，应当调整比较财务报表最早期间所涉及的各项净资产项目的期初余额，财务报表其他相关项目的金额也应一并调整。</p>
+<p>对于比较财务报表期间和以前的非重大会计差错，以及影响或者累积影响不能合理确定的重大会计差错，应当调整相关项目的本期数。</p>
+<h2 id="_5">第五章 报告日后事项<a class="headerlink" href="#_5" title="Permanent link">#</a></h2>
+<p><strong> 第十七条 </strong> 报告日以后获得新的或者进一步的证据，有助于对报告日存在状况的有关金额作出重新估计，应当作为调整事项，据此对报告日的报表进行调整。调整事项包括已证实资产发生了减损、已确定获得或者支付的赔偿、财务舞弊或者差错等。</p>
+<p><strong> 第十八条 </strong> 报告日以后发生的调整事项，应当如同报告所属期间发生的事项一样进行会计处理，对报告日已编制的报表相关项目的期末数或者本期数作相应的调整，并对当期编制的报表相关项目的期初数或者上期数进行调整。 </p>
+<p><strong> 第十九条 </strong> 报告日以后才发生或者存在的事项，不影响报告日的存在状况，但如不加以说明，将会影响报告使用者作出正确估计和决策，这类事项应当作为非调整事项，在财务报表附注中予以披露，如自然灾害导致的资产损失、外汇汇率发生重大变化等。</p>
+<h2 id="_6">第六章 披露<a class="headerlink" href="#_6" title="Permanent link">#</a></h2>
+<p><strong> 第二十条 </strong> 政府会计主体应当在财务报表附注中披露如下信息：</p>
+<p>（一）会计政策变更的内容和理由、会计政策变更的影响，以及影响或者累积影响不能合理确定的理由。</p>
+<p>（二）会计估计变更的内容和理由、会计估计变更对当期和未来期间的影响数。</p>
+<p>（三）重大会计差错的内容和重大会计差错的更正方法、金额，以及与前期相关的重大会计差错影响或者累积影响不能合理确定的理由。</p>
+<p>（四）与报告日后事项有关的下列信息：</p>
+<p>1.财务报告的批准报出者和批准报出日。</p>
+<p>2.每项重要的报告日后非调整事项的内容，及其估计对政府会计主体财务状况、运行情况的影响；无法作出估计的，应当说明其原因。</p>
+<p><strong> 第二十一条 </strong> 政府会计主体在以后的会计期间，不需要重复披露在以前期间的财务报表附注中已披露的会计政策变更、会计估计变更和会计差错更正的信息。</p>
+<h2 id="_7">第七章 附则<a class="headerlink" href="#_7" title="Permanent link">#</a></h2>
+<p><strong> 第二十二条 </strong> 财政总预算会计中涉及的会计调整事项，按照《财政总预算会计制度》和财政部其他相关规定处理。</p>
+<p>行政事业单位预算会计涉及的会计调整事项，按照部门决算报告制度有关要求进行披露。</p>
+<p><strong> 第二十三条 </strong> 本准则自2019年1月1日起施行。</p>
+<h2 id="7_1">财政部会计司有关负责人就印发《政府会计准则第7号 ——会计调整》答记者问<a class="headerlink" href="#7_1" title="Permanent link">#</a></h2>
+<p>2018年11月1日　<br />
+ 为了积极贯彻落实国务院批转财政部的《权责发生制政府综合财务报告改革方案》（以下简称《改革方案》），建立健全政府会计准则体系，近日，财政部制定发布了《政府会计准则第7号——会计调整》（以下简称会计调整准则）。财政部会计司有关负责人就会计调整准则有关问题回答了记者的提问。</p>
+<p><strong>问：为什么要制定会计调整准则？</strong>　</p>
+<p><strong>答：</strong> 制定会计调整准则，主要有以下三点考虑：</p>
+<p>一是建立健全政府会计准则体系的需要。按照《改革方案》要求，2020年之前要建立起具有中国特色的政府会计准则体系。无论从企业会计准则还是国际公共部门会计准则的经验看，关于会计政策、会计估计变更、会计差错更正和报告日后事项（以下统称“会计调整”）的会计处理规定，都是政府会计准则体系的重要组成部分。</p>
+<p>二是规范各类会计调整事项处理的需要。现行财政总预算会计制度、行政事业单位会计制度中，对于会计调整的处理没有统一明确的规定，实务中对上述会计调整业务的处理方法很不规范，也很不统一，一定程度上降低了会计信息质量。近年来，审计部门、会计实务界等多次建议我们对此问题予以规范。</p>
+<p>三是确保政府会计标准体系内在协调一致的需要。按照《改革方案》，政府会计标准体系采用了“准则+制度”的模式，目前，《政府会计制度——行政事业单位会计科目和报表》（以下简称《政府会计制度》）对会计差错等调整事项已经从账务处理角度进行了一些规范，《政府会计制度》与行政事业单位会计制度新旧衔接规定对国家法定会计政策、会计估计变更等事项也进行了规范，但这些规定不系统，缺乏统一的会计处理原则和方法，需要制定具体准则进行系统规范。</p>
+<p>因此，基于以上三方面原因，我们制定发布了会计调整准则。　</p>
+<p><strong>问：会计调整准则起草发布的过程是怎样的？</strong>　　</p>
+<p><strong>答：</strong>起草发布会计调整准则，主要经历了以下四个阶段：</p>
+<p>一是研究论证阶段。2017年以来，我们在起草《政府会计制度》以及相关具体会计准则的同时，就开始对会计调整问题进行了研究，并就是否专门制定具体准则进行了反复讨论。相关研究和讨论结果对于会计调整准则制定奠定了理论基础。</p>
+<p>二是起草征求意见稿阶段。2018年以来，我们在前期研究基础上，通过咨询专家、政府会计准则制度制定联系点单位等，充分了解当前会计核算中遇到的会计调整事项以及具体做法，并认真分析了现行行政事业单位会计制度、财政总预算会计制度、企业会计准则制度、国际公共部门会计准则中关于会计调整的规定，在此基础上于3月份起草了会计调整准则讨论稿，并在工作层面进行了多次讨论和修改完善后形成征求意见稿。</p>
+<p>三是公开征求意见阶段。2018年4月，我们印发了《关于征求&lt;政府会计准则第X号——会计调整（征求意见稿）&gt;意见的函》（财办会〔2018〕9号），就会计调整准则征求意见稿面向中央部门和单位、地方财政部门、社会公众征求意见，同时也向部内相关司局、各地专员办、政府会计准则委员会咨询专家征求意见。截至2018年6月1日，我们共收到106份书面反馈意见，其中53份无不同意见，其余53份共提出了264条具体意见和建议。反馈意见总体上对征求意见稿表示赞同，有关方面也针对其中的具体内容提出了一些意见和建议。</p>
+<p>四是送审发布阶段。2018年7月份以来，我们对所有反馈意见一一进行了梳理，并逐条对是否采纳情况进行了分析，并根据有关反馈意见和建议对会计调整准则征求意见稿进行了修改和完善，形成了送审稿。9月下旬，经会计司技术小组审核和司务会审议并据此进一步修订完善后，启动部内会签和报批程序，最终于2018年10月21日由部领导签发。　　</p>
+<p><strong>问：制定会计调整准则主要遵循了哪些原则？</strong>　</p>
+<p><strong>答：</strong>制定会计调整准则主要遵循了以下原则：</p>
+<p>一是积极借鉴相关企业会计准则制度和国际公共部门会计准则。现行企业会计准则制度和国际公共部门会计准则均对会计调整的处理进行了规定，很多原则与方法值得政府会计借鉴。因此，我们在起草过程中，结合政府会计主体特点，积极借鉴了《企业会计制度》《企业会计准则第28号——会计政策、会计估计变更和差错更正》《企业会计准则第29号——资产负债表日后事项》以及《国际公共部门会计准则第3号——会计政策、会计估计变更和差错》《国际公共部门会计准则第14号——报告日后事项》等会计准则制度中相关内容。</p>
+<p>二是立足我国政府会计主体实务，着力提高可操作性。从满足政府会计主体核算需要出发，坚持问题导向，对会计调整的处理进行规范；同时，考虑到政府会计主体的核算现状，在借鉴企业会计准则制度和国际相关准则时，力求原则明确、方法简化、语言接地气，尽可能减少专业判断，以提高准则的可操作性。</p>
+<p>三是与相关政策做好协调。会计调整不仅涉及会计账务处理和报表的调整，还涉及会计基础工作规范、预决算管理等政策。因此，在会计调整准则制定过程中，不仅着眼于会计调整事项，还充分考虑了决算管理等调整事项；不仅规定会计处理，还力求做好与相关政策的协调。　　</p>
+<p><strong>问：会计调整准则的范围和主要内容是什么？</strong>　</p>
+<p><strong>答：</strong>本准则名称为“会计调整”，范围包括会计政策变更、会计估计变更、会计差错更正和报告日后事项的会计处理规定，这种体例安排借鉴了《企业会计制度》（2000年）第十章“会计调整”的写法，但在具体处理原则和方法上充分考虑了政府会计主体的特点。　　具体而言，会计调整准则共七章23条，主要内容如下：</p>
+<p>第一章为总则，主要规定本准则制定依据，会计调整、会计政策、会计估计、会计差错、报告日后事项等基本概念，以及具体会计政策和会计估计的确定程序等。</p>
+<p>第二章为会计政策及其变更，主要规定会计政策及其变更的确认、追溯调整法和未来适用法在会计政策变更中的应用等。</p>
+<p>第三章为会计估计变更，主要规定会计估计变更的确认、未来适用法在会计估计变更中的应用。　　</p>
+<p>第四章为会计差错更正，主要规定本期发现的会计差错以及报告日后期间发现的会计差错的会计处理。</p>
+<p>第五章为报告日后事项，主要规定报告日后调整事项的会计处理和非调整事项的披露。</p>
+<p>第六章为披露，主要规定财务报表附注中应当披露的与会计调整相关的内容。</p>
+<p>第七章为附则，主要规定本准则的例外事项和生效日期。　　</p>
+<p><strong>问：关于会计调整准则，还有哪些需要说明的重要事项？</strong>　</p>
+<p><strong>答：</strong>关于会计调整准则，需要说明的重要事项有：</p>
+<p>一是关于会计政策变更及追溯调整法。现行企业会计准则和国际公共部门会计准则规定，会计政策变更能够提供更可靠、更相关的会计信息的，应当采用追溯调整法处理，但确定该项会计政策变更累积影响数不切实可行的，应当从可追溯调整的最早期间期初开始应用变更后的会计政策。在当期期初确定会计政策变更对以前各期累积影响数不切实可行的，应当采用未来适用法处理。考虑到“不切实可行”的规定需要会计人员有相当的专业判断，为了简化实务操作，会计调整准则适当简化了追溯调整法的会计处理，且没有引入“不切实可行”的规定。对于会计政策变更的影响或者累积影响数不能合理确定的，要求政府会计主体均采用未来适用法进行处理。</p>
+<p>二是关于会计差错重要性的判断标准。对于会计差错更正，现行企业会计准则和国际公共部门会计准则均分别重要性和非重要性作出不同规定，但并未在准则中明确重要性的判断标准。为了提高可操作性，会计调整准则对重要性标准进行了规定，即“重大会计差错，一般是指差错的性质比较严重或差错的金额比较大。该差错会影响报表使用者对政府会计主体过去、现在或者未来的情况作出评价或者预测，则认为性质比较严重，如未遵循政府会计准则制度、财务舞弊等原因产生的差错。通常情况下，导致差错的经济业务或事项对报表某一具体项目的影响或累积影响金额占该类经济业务或事项对报表同一项目的影响金额的10％及以上，则认为金额比较大”。此外还规定，政府会计主体滥用会计政策、会计估计及其变更，应当作为重大会计差错予以更正。</p>
+<p>三是关于重大前期差错的会计处理方法。现行企业会计准则和国际公共部门会计准则采用“追溯重述法”对重大前期差错进行会计处理，虽然追溯重述法与追溯调整法概念不同，但会计处理方法一致。为了减少新概念的出现，增强政府会计准则的可理解性，会计调整准则对于重大前期差错更正未引入“追溯重述法”，也没有引入“追溯调整法”，而是对相关会计处理方法直接做出规定，即“本期发现的与前期相关的重大会计差错，如影响收入、费用或者预算收支的，应当将其对收入、费用或者预算收支的影响或累积影响调整发现当期期初的相关净资产项目或者预算结转结余，并调整其他相关项目的期初数；如不影响收入、费用或者预算收支，应当调整发现当期相关项目的期初数。经上述调整后，视同该差错在差错发生的期间已经得到更正”。</p>
+<p>四是关于报告日后事项。由于现行政府会计准则制度中没有明确提出“资产负债表日”这一概念，因此，会计调整准则借鉴国际公共部门准则的规定，采用了“报告日后事项”的概念，并将其界定为“报告日（年度报告日通常为12月31日）至报告批准报出日之间发生的需要调整或说明的事项，包括调整事项和非调整事项两类”。</p>
+<p>五是关于预算会计调整。考虑到实务中预算会计涉及的会计政策变更和会计估计变更情形很少，即使存在，一般也是法定政策变更，国务院财政部门会在变更同时统一出台相关规定，因此会计调整准则关于会计政策变更、会计估计变更的会计处理原则仅适用政府财务会计。另外，会计调整准则关于预算会计前期重大会计差错的处理未要求调整可比期间的预算结转结余，主要考虑决算报告经人大批准后不应再做调整。此外，鉴于财政总预算会计及部门决算工作的特殊要求，会计调整准则在附则部分规定，财政总预算会计中涉及的会计调整事项，按照《财政总预算会计制度》和财政部其他相关规定处理。行政事业单位预算会计涉及的会计调整事项，按照部门决算报告制度有关要求进行披露。 |</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Copyright &copy; 2019 - 2022 赵永辉</p>
+            <p>用<a href="https://www.mkdocs.org/">MkDocs</a>建立的文档。</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">搜索</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">关闭</span></button>
+            </div>
+            <div class="modal-body">
+                <p>从这里你可以搜索这些文件。在下面输入您的搜索内容。</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="搜索..." id="mkdocs-search-query" title="在此输入搜索内容">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="没有搜索到结果"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">键盘热键</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">关闭</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">键</th>
+                    <th>动作</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>打开这个帮助</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>下一页面</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>上一页面</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>搜索</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
