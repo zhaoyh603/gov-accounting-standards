@@ -1,0 +1,15 @@
+jieba==0.42.1
+Jinja2==3.0.3
+Markdown==3.3.6
+MarkupSafe==2.0.1
+mergedeep==1.3.4
+mkdocs==1.2.3
+mkdocs-literate-nav==0.4.1
+mkdocs-material==8.1.7
+mkdocs-material-extensions==1.0.3
+Pygments==2.11.2
+pymdown-extensions==9.1
+pyparsing==3.0.7
+python-dateutil==2.8.2
+PyYAML==6.0
+pyyaml_env_tag==0.1
