@@ -9,7 +9,7 @@
     },
     "scripts": {
       "dev": "mkdocs serve -a localhost:$PORT",
-      "build": "mkdocs build -d site"
+      "build": "mkdocs build -d public"
     },
     "keywords": [],
     "author": "",
