@@ -1,17 +1,17 @@
 site_name: 政府和非营利组织会计
 theme:
-  name: mkdocs # readthedocs material mkdocs
-  nav_style: dark
+  name: null # readthedocs material mkdocs
+  custom_dir: 'cinder'
+  colorscheme: github
   locale: zh_CN
   features:
       - navigation.tabs
       - navigation.tabs.sticky
   highlightjs: true
   hljs_languages:
-      - yaml
-      - rust
       - python
       - java
+      - sql
   shortcuts:
     help: 191    # ?
     next: 78     # n
@@ -54,5 +54,5 @@ plugins:
 
 site_author: 'zhaoyh603@163.com'
 copyright: 
-  Copyright &copy; 2019 - 2022 赵永辉
+  Copyright &copy; 2019 - 2022 本站所有内容除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a>许可协议。转载请注明出处！
   
