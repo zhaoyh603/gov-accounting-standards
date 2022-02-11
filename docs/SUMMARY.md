@@ -17,7 +17,9 @@
   - 成本
     - cbgl/*
   - 财管
-    - cwgl/*
+      - 管理会计
+        - cwgl/guanli-kuaij/*
+      - cwgl/*.md
   - 报告
       - 部门决算
         - bg/bmjs/*
