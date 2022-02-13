@@ -48,9 +48,9 @@ plugins:
           - ja
           - en
       separator: '[\s\-\.]'
-
-  - literate-nav:
-      nav_file: SUMMARY.md
+  - awesome-pages
+  # - literate-nav:
+  #     nav_file: SUMMARY.md
 
 site_author: 'zhaoyh603@163.com'
 copyright: 
