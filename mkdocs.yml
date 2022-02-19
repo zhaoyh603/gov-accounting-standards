@@ -1,9 +1,11 @@
-site_name: 政府和非营利组织会计
+site_name: 政府和非营利组织会计准则制度汇编
 theme:
-  name: null # readthedocs material mkdocs
-  custom_dir: 'cinder'
+  name: material # readthedocs material mkdocs
+  # custom_dir: 'cinder'
   colorscheme: github
-  locale: zh_CN
+  language: zh
+  palette:
+    primary: blue grey
   features:
       - navigation.tabs
       - navigation.tabs.sticky
