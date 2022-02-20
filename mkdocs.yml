@@ -6,6 +6,7 @@ theme:
   language: zh
   palette:
     primary: blue grey
+    accent: blue
   features:
       - navigation.tabs
       - navigation.tabs.sticky
